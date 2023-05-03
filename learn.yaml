@@ -1,0 +1,50 @@
+---
+string: kenneth ihezie
+
+int: 2
+
+boolean: true
+
+list_multiline:
+  - apple
+  - fruit
+  - food
+
+list_single_line: [1 , 2, 4, 5]  
+# An array can contain any valid YAML value. 
+# The values in a list do not have to be the same type.
+items:
+  - things:
+      thing1: huey
+      things2: dewey
+      thing3: louie
+  - other things:
+      key: value
+
+multi_line_string: |
+  Hello world
+  my name is gozie
+
+# foo represents infinity
+foo: .inf
+
+# bar is negative infinity
+bar: -.Inf
+
+# plop is not a number
+plop: .NAN
+
+null_key: null
+
+single_line_map: {a: 1, b: 5, c: developer}
+
+multiline_map: 
+  first_item:
+    - 1
+    - 2
+    - 3
+  second_item:
+    - collins
+    - ella
+    - stocisim  
+        
